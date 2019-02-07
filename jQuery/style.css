@@ -1,8 +1,16 @@
 h2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     color: rgb(165, 24, 24);
+    font-size: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 div {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    color: rgb(109, 16, 16);
+    font-weight: bold;
 }

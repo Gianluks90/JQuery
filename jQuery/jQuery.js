@@ -38,7 +38,11 @@ let visibleMethods = (function ($) {
         let userId = user.id;
         let paragraph = document.querySelector("[data-paragraphId = '"+ userId +"']");
         let span1 = document.createElement('span');
-        span1.innerHTML = "e-mail: " + user.email + "<br>City: " + user.address.city;
+        span1.innerHTML = "e-mail: " + user.email 
+            + "<br>Phone: " + user.phone
+            + "<br>Address: " + user.address.street + ", " + user.address.suite + ", " + user.address.city
+            + "<br>Company: " + user.company.name;
+
         span1.appendChild(document.createElement('br'));
         paragraph.appendChild(span1);
     }
